@@ -1,7 +1,25 @@
 import React, { useState } from "react";
 
 // Sample products
-const sampleProducts = [
+const sampleProducts = [{
+  id: 5,
+  title: "Rolex Sky-Dweller Black Dial",
+  brand: "Rolex",
+  price: 160,
+  condition: "Certified Pre-Owned",
+  img: "https://www.rolex.com/content/dam/rolex-com/sky-dweller/m326238-0009/sky-dweller-m326238-0009-black-dial-01.jpg", 
+  desc: "42mm Oyster case in yellow gold, black dial, Oysterflex bracelet. Annual calendar and dual time zone functionality. Includes Arowa 12-month warranty and full authentication papers.",
+},
+{
+  id: 6,
+  title: "Cartier Santos Diamond Set",
+  brand: "Cartier",
+  price: 160,
+  condition: "Like New",
+  img: "https://www.cartier.com/content/dam/rcq/car/33/23/58/0/cartier-santos-diamond-watch.jpg", 
+  desc: "Elegant Cartier Santos model with diamond-set bezel and stainless steel case. Automatic movement, 39.8mm case size, luxury bracelet. Fully authenticated and comes with Arowa warranty.",
+},
+
   {
     id: 1,
     title: "Rolex Submariner Date 126610LN",
